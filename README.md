@@ -5,19 +5,19 @@
    <br/>
   <img width="120" src="https://i.ibb.co/yhbt6CY/dashy.png" />
   <br/>
-  <b><a href="./docs/showcase.md">User Showcase</a></b> | <b><a href="https://demo.dashy.to">Live Demo</a></b> | <b><a href="./docs/quick-start.md">Getting Started</a></b> | <b><a href="https://dashy.to/docs">Documentation</a></b> | <b><a href="https://github.com/Lissy93/dashy">GitHub</a></b>
+  <b><a href="./docs/showcase.md">User Showcase</a></b> | <b><a href="https://demo.dashy.to">Live Demo</a></b> | <b><a href="./docs/quick-start.md">Getting Started</a></b> | <b><a href="https://dashy.to/docs">Documentation</a></b> | <b><a href="https://github.com/gcranid/dashy">GitHub</a></b>
 </p>
 
 <p align="center">
 <br>
 <sup>Dashy is kindly sponsored by <a href="https://umbrel.com?ref=dashy">Umbrel</a> - the personal home cloud and OS for self-hosting</sup><br>
 <a href="https://umbrel.com?ref=dashy">
-<img width="400" src="https://github.com/Lissy93/dashy/blob/WEBSITE/docs-site-source/static/umbrel-banner.jpg?raw=true" />
+<img width="400" src="https://github.com/gcranid/dashy/blob/WEBSITE/docs-site-source/static/umbrel-banner.jpg?raw=true" />
 </a>
 </p>
 
 > [!NOTE]
-> Version [3.0.0](https://github.com/Lissy93/dashy/releases/tag/3.0.0) has been released, and requires some changes to your setup, see [#1529](https://github.com/Lissy93/dashy/discussions/1529) for details.
+> Version [3.0.0](https://github.com/gcranid/dashy/releases/tag/3.0.0) has been released, and requires some changes to your setup, see [#1529](https://github.com/gcranid/dashy/discussions/1529) for details.
 
 
 <details>
@@ -88,7 +88,7 @@
 
 **Screenshots**: Checkout the [Showcase](./docs/showcase.md), to see example dashboards from the community
 
-**Spin up your own demo**: [![One-Click Deploy with PWD](https://img.shields.io/badge/Play--with--Docker-Deploy-2496ed?style=flat-square&logo=docker)](https://labs.play-with-docker.com/?stack=https://raw.githubusercontent.com/Lissy93/dashy/master/docker-compose.yml) or [`docker run -p 8080:8080 lissy93/dashy`](./docs/quick-start.md)
+**Spin up your own demo**: [![One-Click Deploy with PWD](https://img.shields.io/badge/Play--with--Docker-Deploy-2496ed?style=flat-square&logo=docker)](https://labs.play-with-docker.com/?stack=https://raw.githubusercontent.com/gcranid/dashy/master/docker-compose.yml) or [`docker run -p 8080:8080 gcranid/dashy`](./docs/quick-start.md)
 
 
 <p align="center">
@@ -109,7 +109,7 @@
 You will need [Docker](https://docs.docker.com/get-docker/) installed on your system
 
 ```
-docker run -p 8080:8080 lissy93/dashy
+docker run -p 8080:8080 gcranid/dashy
 ```
 
 Or
@@ -120,9 +120,9 @@ docker run -d \
   -v /root/my-local-conf.yml:/app/user-data/conf.yml \
   --name my-dashboard \
   --restart=always \
-  lissy93/dashy:latest
+  gcranid/dashy:latest
 ```
-[![Dashy on Docker Hub](https://dockeri.co/image/lissy93/dashy)](https://hub.docker.com/r/lissy93/dashy)
+[![Dashy on Docker Hub](https://dockeri.co/image/gcranid/dashy)](https://hub.docker.com/r/gcranid/dashy)
 
 See also: [examples with Docker Compose](./docs/deployment.md#using-docker-compose). Dashy is also available via GHCR, and tags for other architectures (`arm32v7`, `arm64v8`, etc.) and set versions are supported
 
@@ -132,7 +132,7 @@ See also: [examples with Docker Compose](./docs/deployment.md#using-docker-compo
 
 You will need [git](https://git-scm.com/downloads), the latest or LTS version of [Node.js](https://nodejs.org/) and _(optionally)_ [Yarn](https://yarnpkg.com/) installed on your system.
 
-- Clone the Repo: `git clone https://github.com/Lissy93/dashy.git` and `cd dashy`
+- Clone the Repo: `git clone https://github.com/gcranid/dashy.git` and `cd dashy`
 - Configuration: Fill in your settings in `./user-data/conf.yml`
 - Install dependencies: `yarn`
 - Build: `yarn build`
@@ -143,13 +143,13 @@ You will need [git](https://git-scm.com/downloads), the latest or LTS version of
 ### Deploy to the Cloud ☁️
 
 Dashy supports **1-Click deployments** on several popular cloud platforms. To spin up a new instance, just click a link below:
-- [<img src="https://i.ibb.co/ZxtzrP3/netlify.png" width="18"/> Deploy to Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/lissy93/dashy)
-- [<img src="https://i.ibb.co/d2P1WZ7/heroku.png" width="18"/> Deploy to Heroku](https://heroku.com/deploy?template=https://github.com/Lissy93/dashy)
-- [<img src="https://i.ibb.co/Ld2FZzb/vercel.png" width="18"/> Deploy to Vercel](https://vercel.com/new/project?template=https://github.com/lissy93/dashy)
-- [<img src="https://i.ibb.co/xCHtzgh/render.png" width="18"/> Deploy to Render](https://render.com/deploy?repo=https://github.com/lissy93/dashy/tree/deploy_render)
+- [<img src="https://i.ibb.co/ZxtzrP3/netlify.png" width="18"/> Deploy to Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/gcranid/dashy)
+- [<img src="https://i.ibb.co/d2P1WZ7/heroku.png" width="18"/> Deploy to Heroku](https://heroku.com/deploy?template=https://github.com/gcranid/dashy)
+- [<img src="https://i.ibb.co/Ld2FZzb/vercel.png" width="18"/> Deploy to Vercel](https://vercel.com/new/project?template=https://github.com/gcranid/dashy)
+- [<img src="https://i.ibb.co/xCHtzgh/render.png" width="18"/> Deploy to Render](https://render.com/deploy?repo=https://github.com/gcranid/dashy/tree/deploy_render)
 - [<img src="https://railway.app/brand/logo-light.png" width="18"/> Deploy to Railway](https://railway.app/template/MtdjAQ?referralCode=app)
-- [<img src="https://i.ibb.co/J7MGymY/googlecloud.png" width="18"/> Deploy to GCP](https://deploy.cloud.run/?git_repo=https://github.com/lissy93/dashy.git)
-- [<img src="https://i.ibb.co/HVWVYF7/docker.png" width="18"/> Deploy to PWD](https://labs.play-with-docker.com/?stack=https://raw.githubusercontent.com/Lissy93/dashy/master/docker-compose.yml)
+- [<img src="https://i.ibb.co/J7MGymY/googlecloud.png" width="18"/> Deploy to GCP](https://deploy.cloud.run/?git_repo=https://github.com/gcranid/dashy.git)
+- [<img src="https://i.ibb.co/HVWVYF7/docker.png" width="18"/> Deploy to PWD](https://labs.play-with-docker.com/?stack=https://raw.githubusercontent.com/gcranid/dashy/master/docker-compose.yml)
 - [<img src="https://i.ibb.co/7NxnM2P/easypanel.png" width="18"/> Deploy to Easypanel](https://easypanel.io/docs/templates/dashy)
 
 > For more 1-click cloud deployments, see [Cloud Deployment](./docs/deployment.md#deploy-to-cloud-service)
@@ -176,13 +176,13 @@ Dashy comes pre-bundled with several built-in themes, which you can preview, app
 
 <p align="center">
   <a href="https://i.ibb.co/BVSHV1v/dashy-themes-slideshow.gif">
-    <img alt="Example Themes" src="https://raw.githubusercontent.com/Lissy93/dashy/master/docs/assets/theme-slideshow.gif" width="400" />
+    <img alt="Example Themes" src="https://raw.githubusercontent.com/gcranid/dashy/master/docs/assets/theme-slideshow.gif" width="400" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://i.ibb.co/cLDXj1R/dashy-theme-configurator.gif">
-    <img alt="Example Themes" src="https://raw.githubusercontent.com/Lissy93/dashy/master/docs/assets/theme-config-demo.gif" width="400" />
+    <img alt="Example Themes" src="https://raw.githubusercontent.com/gcranid/dashy/master/docs/assets/theme-config-demo.gif" width="400" />
   </a>
 </p>
 
@@ -230,7 +230,7 @@ Dashy has an optional feature to check if each app/ service is up and responding
 Status indicators can be globally enabled by setting `appConfig.statusCheck: true` or enabled/ disabled on a per-item basis. Status is checked on page load, but you can allow continuous polling by specifying a time interval between checks, in seconds under `appConfig.statusCheckInterval`. You can also use a different endpoint for status checking, with `statusCheckUrl`, and if needed, pass in custom headers under `statusCheckHeaders`.
 
 <p align="center">
-  <img alt="Status Checks demo" src="https://raw.githubusercontent.com/Lissy93/dashy/master/docs/assets/status-check-demo.gif" width="600" />
+  <img alt="Status Checks demo" src="https://raw.githubusercontent.com/gcranid/dashy/master/docs/assets/status-check-demo.gif" width="600" />
 </p>
 
 **[⬆️ Back to Top](#dashy)**
@@ -287,12 +287,12 @@ You can change the view from the UI, using the switch icon in the top-right corn
 
 <p align="center">
   <b>Example of Workspace View</b><br>
-  <img alt="Workspace view demo" src="https://raw.githubusercontent.com/Lissy93/dashy/master/docs/assets/workspace-demo.gif" width="600" />
+  <img alt="Workspace view demo" src="https://raw.githubusercontent.com/gcranid/dashy/master/docs/assets/workspace-demo.gif" width="600" />
 </p>
 
 <p align="center">
   <b>Example of Minimal View</b><br>
-  <img alt="Workspace view demo" src="https://raw.githubusercontent.com/Lissy93/dashy/master/docs/assets/minimal-view-demo.gif" width="600" />
+  <img alt="Workspace view demo" src="https://raw.githubusercontent.com/gcranid/dashy/master/docs/assets/minimal-view-demo.gif" width="600" />
 </p>
 
 **[⬆️ Back to Top](#dashy)**
@@ -373,7 +373,7 @@ Under the config menu, you can export, view, backup, or reset app config and edi
 
 
 <p align="center">
-  <img alt="Config Editor demo" src="https://raw.githubusercontent.com/Lissy93/dashy/master/docs/assets/config-editor-demo.gif" width="600" />
+  <img alt="Config Editor demo" src="https://raw.githubusercontent.com/gcranid/dashy/master/docs/assets/config-editor-demo.gif" width="600" />
 </p>
 
 **[⬆️ Back to Top](#dashy)**
@@ -386,7 +386,7 @@ Under the config menu, you can export, view, backup, or reset app config and edi
 
 Dashy has an **optional** built-in feature for securely backing up your config to a hosted cloud service and then restoring it on another instance. This is useful not only for backing up your configuration off-site but also enables Dashy to be used without having to write a YAML config file.
 
-All data is fully E2E encrypted before being sent to the backend (done in [`CloudBackup.js`](https://github.com/Lissy93/dashy/blob/master/src/utils/CloudBackup.js) using [crypto.js](https://github.com/brix/crypto-js) 's AES method). The data is then sent to a [Cloudflare worker](https://developers.cloudflare.com/workers/learning/how-workers-works) and stored in a [KV](https://developers.cloudflare.com/workers/learning/how-kv-works) data store.
+All data is fully E2E encrypted before being sent to the backend (done in [`CloudBackup.js`](https://github.com/gcranid/dashy/blob/master/src/utils/CloudBackup.js) using [crypto.js](https://github.com/brix/crypto-js) 's AES method). The data is then sent to a [Cloudflare worker](https://developers.cloudflare.com/workers/learning/how-workers-works) and stored in a [KV](https://developers.cloudflare.com/workers/learning/how-kv-works) data store.
 
 **[⬆️ Back to Top](#dashy)**
 
@@ -424,10 +424,10 @@ Dashy supports multiple languages and locales. When available, your language sho
 - 🇸🇪 **Swedish**: `sv` - Contributed by **[@BOZG](https://github.com/BOZG)**
 - 🇹🇼 **Traditional Chinese**: `zh-TW` - Contributed by **[@stanly0726](https://github.com/stanly0726)**
 - 🇹🇷 **Turkish**: `tr` - Contributed by **[@imsakg](https://github.com/imsakg)**
-- 🏴‍☠️ **Pirate**: `pirate` - Contributed by **[@Lissy93](https://github.com/lissy93)**
+- 🏴‍☠️ **Pirate**: `pirate` - Contributed by **[@gcranid](https://github.com/gcranid)**
 
 #### Add your Language
-I would love Dashy to be available to everyone without language being a barrier to entry. If you've got a few minutes to spare, consider adding translations for your language. It's a quick task, and all text is in [a single JSON file](https://github.com/Lissy93/dashy/tree/master/src/assets/locales). Since any missing text will fall back to English, you don't need to translate it all.
+I would love Dashy to be available to everyone without language being a barrier to entry. If you've got a few minutes to spare, consider adding translations for your language. It's a quick task, and all text is in [a single JSON file](https://github.com/gcranid/dashy/tree/master/src/assets/locales). Since any missing text will fall back to English, you don't need to translate it all.
 
 **[⬆️ Back to Top](#dashy)**
 
@@ -484,11 +484,11 @@ Latest ✔ | Latest ✔ | 10+ ✔ | Latest ✔ | 6.1+ ❌ |
 
 ## Support 🙋‍♀️
 
-If you're having trouble getting Dashy up and running, or have a question about usage or configuration, feel free to ask. The best place to do this is via [the Discussions](https://github.com/Lissy93/dashy/discussions).
+If you're having trouble getting Dashy up and running, or have a question about usage or configuration, feel free to ask. The best place to do this is via [the Discussions](https://github.com/gcranid/dashy/discussions).
 
-If you've found something which isn't working as it should, please raise a bug by [opening a ticket](https://github.com/Lissy93/dashy/issues/new/choose).
+If you've found something which isn't working as it should, please raise a bug by [opening a ticket](https://github.com/gcranid/dashy/issues/new/choose).
 
-It's best to check the [docs](./docs), [previous issues](https://github.com/Lissy93/dashy/issues?q=label%3A%22%F0%9F%A4%B7%E2%80%8D%E2%99%82%EF%B8%8F+Question%22+) and [troubleshooting guide](./docs/troubleshooting.md) first.
+It's best to check the [docs](./docs), [previous issues](https://github.com/gcranid/dashy/issues?q=label%3A%22%F0%9F%A4%B7%E2%80%8D%E2%99%82%EF%B8%8F+Question%22+) and [troubleshooting guide](./docs/troubleshooting.md) first.
 
 **[⬆️ Back to Top](#dashy)**
 
@@ -502,14 +502,14 @@ If you're using Dashy and would like to help support its development, then that 
 
 Several areas that we need a bit of help with at the moment are:
 - Translating - Help make Dashy available to non-native English speakers by [adding your language](./docs/multi-language-support.md#adding-a-new-language)
-- Donate a small amount by [Sponsoring @Lissy93 on GitHub](https://github.com/sponsors/Lissy93) and receive some extra perks!
+- Donate a small amount by [Sponsoring @gcranid on GitHub](https://github.com/sponsors/gcranid) and receive some extra perks!
 - Complete a [short survey](https://survey.typeform.com/to/gl0L68ou) to have your say about future features
-- Share your dashboard in the [Showcase](https://github.com/Lissy93/dashy/blob/master/docs/showcase.md#dashy-showcase-), to inspire others
+- Share your dashboard in the [Showcase](https://github.com/gcranid/dashy/blob/master/docs/showcase.md#dashy-showcase-), to inspire others
 - Spread the word by sharing Dashy or a screenshot of your dashboard to help new users discover it
 - Submit a PR to add a new feature, fix a bug, update the docs, add a theme, widget or something else
-- Star Dashy on GitHub/ DockerHub or leave an upvote / review on [these platforms](https://github.com/Lissy93/dashy/blob/master/docs/contributing.md#star-upvote-or-leave-a-review)
+- Star Dashy on GitHub/ DockerHub or leave an upvote / review on [these platforms](https://github.com/gcranid/dashy/blob/master/docs/contributing.md#star-upvote-or-leave-a-review)
 
-[![Sponsor Lissy93 on GitHub](./docs/assets/sponsor-button.svg)](https://github.com/sponsors/Lissy93)
+[![Sponsor gcranid on GitHub](./docs/assets/sponsor-button.svg)](https://github.com/sponsors/gcranid)
 
 **[⬆️ Back to Top](#dashy)**
 
@@ -657,10 +657,10 @@ Huge thanks to the sponsors helping to support Dashy's development!
 <!-- readme: sponsors -end -->
 
 #### Contributors
-[![Auto-generated contributors](https://raw.githubusercontent.com/Lissy93/dashy/master/docs/assets/CONTRIBUTORS.svg)](./docs/credits.md)
+[![Auto-generated contributors](https://raw.githubusercontent.com/gcranid/dashy/master/docs/assets/CONTRIBUTORS.svg)](./docs/credits.md)
 
 #### Stats
-[![Stats](https://repobeats.axiom.co/api/embed/48546e3c768d38c450ba136e32c0992bcf58ad73.svg "Repobeats analytics image")](https://github.com/Lissy93/dashy/blob/master/docs/credits.md)
+[![Stats](https://repobeats.axiom.co/api/embed/48546e3c768d38c450ba136e32c0992bcf58ad73.svg "Repobeats analytics image")](https://github.com/gcranid/dashy/blob/master/docs/credits.md)
 
 **[⬆️ Back to Top](#dashy)**
 
@@ -670,28 +670,28 @@ Huge thanks to the sponsors helping to support Dashy's development!
 
 > For full development documentation, see: [**Developing**](./docs/developing.md)
 
-[![Open Project in VS Code](https://img.shields.io/badge/Open_in-VS_Code-863cfc?style=flat-square&logo=visualstudiocode)](https://open.vscode.dev/Lissy93/Dashy)
-[![Open in GitPod](https://img.shields.io/badge/Open_in-GitPod-ffae33?style=flat-square&logo=gitpod)](https://gitpod.io/#github.com/lissy93/dashy.git)
-[![Open in GitHub Code Spaces](https://img.shields.io/badge/Open_in-Code%20Spaces-131313?style=flat-square&logo=github)](https://github.dev/Lissy93/dashy)
+[![Open Project in VS Code](https://img.shields.io/badge/Open_in-VS_Code-863cfc?style=flat-square&logo=visualstudiocode)](https://open.vscode.dev/gcranid/Dashy)
+[![Open in GitPod](https://img.shields.io/badge/Open_in-GitPod-ffae33?style=flat-square&logo=gitpod)](https://gitpod.io/#github.com/gcranid/dashy.git)
+[![Open in GitHub Code Spaces](https://img.shields.io/badge/Open_in-Code%20Spaces-131313?style=flat-square&logo=github)](https://github.dev/gcranid/dashy)
 
 Before getting started, you'll need [Git](https://git-scm.com/downloads), [Node](https://nodejs.org/en/download/) and optionally [Yarn](https://yarnpkg.com/) (run `npm i -g yarn`) installed.
 
 To set up the development environment:
-1. Get Code: `git clone https://github.com/Lissy93/dashy.git`  and `cd dashy`
+1. Get Code: `git clone https://github.com/gcranid/dashy.git`  and `cd dashy`
 2. Install dependencies: `yarn`
 3. Start dev server: `yarn dev`
 4. Open the browser: `http://localhost:8080`
 
 When you're ready, you can build the production app with `yarn build`, and then run it with `yarn start`
 
-If you're new to web development, I've put together a short [list of resources](https://github.com/Lissy93/dashy/blob/master/docs/developing.md#resources-for-beginners) to help beginners get started
+If you're new to web development, I've put together a short [list of resources](https://github.com/gcranid/dashy/blob/master/docs/developing.md#resources-for-beginners) to help beginners get started
 
 **Repo Status**:
-[![Open PRs](https://flat.badgen.net/github/open-prs/lissy93/dashy?icon=github)](https://github.com/Lissy93/dashy/pulls)
-[![Total PRs](https://flat.badgen.net/github/prs/lissy93/dashy?icon=github)](https://github.com/Lissy93/dashy/pulls?q=)
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/lissy93/dashy?style=flat-square)](https://github.com/Lissy93/dashy/commits/master)
-[![Last Commit](https://flat.badgen.net/github/last-commit/lissy93/dashy?icon=github)](https://github.com/Lissy93/dashy/commits/master)
-[![Contributors](https://flat.badgen.net/github/contributors/lissy93/dashy?icon=github)](https://github.com/Lissy93/dashy/graphs/contributors)
+[![Open PRs](https://flat.badgen.net/github/open-prs/gcranid/dashy?icon=github)](https://github.com/gcranid/dashy/pulls)
+[![Total PRs](https://flat.badgen.net/github/prs/gcranid/dashy?icon=github)](https://github.com/gcranid/dashy/pulls?q=)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/gcranid/dashy?style=flat-square)](https://github.com/gcranid/dashy/commits/master)
+[![Last Commit](https://flat.badgen.net/github/last-commit/gcranid/dashy?icon=github)](https://github.com/gcranid/dashy/commits/master)
+[![Contributors](https://flat.badgen.net/github/contributors/gcranid/dashy?icon=github)](https://github.com/gcranid/dashy/graphs/contributors)
 
 **[⬆️ Back to Top](#dashy)**
 
@@ -738,7 +738,7 @@ If you're new to web development, I've put together a short [list of resources](
 
 ## Roadmap 🛣️
 
-For upcoming features that will be released in the near future, see the [**Current Roadmap**](https://github.com/Lissy93/dashy/discussions/405)
+For upcoming features that will be released in the near future, see the [**Current Roadmap**](https://github.com/gcranid/dashy/discussions/405)
 
 For past updates, see the [**Changelog**](/.github/CHANGELOG.md)
 
@@ -794,7 +794,7 @@ _There is no warranty that this app will work as expected, and the author cannot
 _liable for anything that goes wrong._
 For more info, see TLDR Legal's [Explanation of MIT](https://tldrlegal.com/license/mit-license)
 
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FLissy93%2Fdashy.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FLissy93%2Fdashy?ref=badge_large)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fgcranid%2Fdashy.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fgcranid%2Fdashy?ref=badge_large)
 
 **[⬆️ Back to Top](#dashy)**
 
@@ -803,8 +803,8 @@ For more info, see TLDR Legal's [Explanation of MIT](https://tldrlegal.com/licen
 <!-- License + Copyright -->
 <p  align="center">
   <i>© <a href="https://aliciasykes.com">Alicia Sykes</a> 2024</i><br>
-  <i>Licensed under <a href="https://gist.github.com/Lissy93/143d2ee01ccc5c052a17">MIT</a></i><br>
-  <a href="https://github.com/lissy93"><img src="https://i.ibb.co/4KtpYxb/octocat-clean-mini.png" /></a><br>
+  <i>Licensed under <a href="https://gist.github.com/gcranid/143d2ee01ccc5c052a17">MIT</a></i><br>
+  <a href="https://github.com/gcranid"><img src="https://i.ibb.co/4KtpYxb/octocat-clean-mini.png" /></a><br>
   <sup>Thanks for visiting :)</sup>
 </p>
 
